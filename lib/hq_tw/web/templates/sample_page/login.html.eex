@@ -1,0 +1,107 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Welcome to Heqet login</title>
+
+    <style type="text/css" link href="https://fonts.googleapis.com/css?family=Hind+Siliguri|Roboto+Slab" rel="stylesheet">
+      body{
+        height:70%;
+        font-family: "Hind Siliguri", sans-serif;
+        text-align:center;
+        padding-top: 13vh;
+
+
+      }
+
+      a{
+        text-decoration:none;
+        color:#67a8bd;
+      }
+
+      p{
+        font-size:14px;
+        color:#333333;
+      }
+
+      #logo{
+
+      }
+
+      #logo heqet{
+        font-family: "Roboto Slab", serif;
+        font-weight:300;
+        font-size: 52px;
+        color: #333;
+        text-transform: uppercase;
+        letter-spacing: 18px;
+      }
+
+      #logo p{
+        font-size:14px;
+
+        color:#333;
+        letter-spacing: 1px;
+        margin: 5px 6px 0px 0px;
+      }
+      #logo img{
+        size:100%;
+      }
+
+      #loginForm{
+        margin: 20px 0px 0px 0px;
+      }
+      #loginForm input{
+        font-size:1em;
+        border:1px thin #333;
+        background-color:#FFF;
+        border-radius: 1em;
+        height:1.8em;
+        width:18em;
+        text-align:center;
+        letter-spacing:0.1em;
+      }
+      input#submit{
+        color:#FFF;
+        font-size:1em;
+        margin:1em;
+        background-color:#67a8bd;
+        border:0px soild #67a8bdF;
+        border-radius: 1em;
+      }
+
+      #loginForm a:hover{
+        font-weight:bold;
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="logo">
+      <img src="/images/logo_header.png" /><br/>
+      <heqet>heqet</heqet><br/>
+      <p>Electronic Health Record</p>
+    </div>
+
+
+    <div id="loginForm">
+      <form action="img/http/heqet.net/login.php" >
+        <p class="input"><input type="text" name="username"  placeholder="Username">
+        </p>
+
+        <p> <input type="password" name="password" placeholder="Password">
+        </p>
+        <P> <input type="submit" value="Login" id="submit"></P>
+
+      </form>
+    </div>
+
+    <div id="loginFail">
+      <p>Can not login? Click <a href=<%= sample_page_path(@conn, :dashboard) %> target="_self">here.</a></p>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,342 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Welcome to Heqet</title>
+      <style type="text/css">
+        @charset "UTF-8";
+        @import url('https://fonts.googleapis.com/css?family=Hind+Siliguri|Roboto+Slab');
+
+        body{
+          font-family: 'Hind Siliguri', serif;
+          font-size:1em;
+          color:#333;
+          margin:0 auto;
+          width:90%;
+          }
+        li{
+          list-style:none;
+          display:block;
+          display:inline;
+
+          }
+        a{
+          color: inherit;
+          text-decoration:none;
+          }
+        /*font*/
+        .hello{
+          font-family: 'Hind Siliguri', sans-serif;
+          color:#333;
+          font-size:1.55em;
+          font-weight:bold;
+          letter-spacing:0em;
+          margin:1.5em 0 2em 0em;
+          }
+        .info{
+          font-size:1.5em;
+          }
+        /*color*/
+          .pregnancy{background-color:#b0ccd9;
+                }
+            .due{background-color:#67a8bd;
+                  }
+              .pCare{background-color:#e1c1c3;
+                    }
+                .closed{background-color:#b1b3b6;
+                      }
+
+                /*memberdb*/
+
+                #logo img{
+                  float:left;
+                  margin:1.5em;
+                  width:4.1em;
+                }
+                #header{
+                  width:100%;
+                  float:left;
+                  margin-bottom:1em;
+
+                  }
+                #header li {
+                  text-align:center;
+                  float:left;
+                  margin-bottom:1em;
+                  width:31.5%;
+                  margin: 0.5%;
+                  }
+
+                .viewAll{
+                  color:#67a8bd;
+                  font-weight:normal;
+                  border:1px solid #67a8bd;
+                  border-radius: 40px;
+                    }
+
+                .add{
+                  border-radius: 40px;
+                  color:#FFF;
+                  background-color:#67a8bd;
+                  }
+                .tool{
+                  border-radius: 40px;
+                  color:#b1b3b6;
+                  border:1px solid #b1b3b6;
+                  }
+                #search{
+                  text-align:center;
+                  clear:left;
+                  float:left;
+                  width:100%;
+                  border:1px solid #b1b3b6;;
+                  color:#b1b3b6;
+                  margin-bottom:1em;
+                  border-radius: 40px;
+                  }
+                #clientz{
+                  width:100%;
+                  margin-bottom:1em;
+                  }
+                #clientz li{
+                  float:left;
+                  color:#fff;
+                  width:30%;
+                  height:12em;
+                  margin:0.5%;
+                  padding: 0 0 0 2%;
+                  }
+
+
+                #subNav{
+                  font-family:"Hind Siliguri", sans-serif;
+                  margin:1em 0em 0em 1em;
+                  width:100%;
+                  float:left;
+                  }
+
+                #subNav li{
+                    color:#b1b3b6;
+                    float:left;
+                    width:31.5%;
+                    border-right:1px solid #b1b3b6;
+                    margin: 0.3%;
+                    font-size:14px;
+                    text-align:center;
+                   }
+                #subNav a{
+                    color:#b1b3b6;
+                   }
+                #subNav a:hover{
+                       color:#67a8bd;
+                       text-decoration:underline;
+                       }
+
+                #footer{
+
+                  color:#b1b3b6;
+                  text-align:center;
+                  float:left;
+                  width:100%;
+                  }
+
+                  /*clientInfo*/
+
+                #clientInfo{
+                  float:left;
+                  }
+                /*#face img{
+                    margin:2%;
+                  float:left;
+                  width:20%;
+                  }*/
+
+                #basicInfo{
+                  margin: 1em 1em 0 1em;
+                  float:left;
+                  max-width:26em;
+                  }
+                #basicInfo h3{
+                  font-size:1.5em;
+                  margin: 0em 0em 0em 0.2em;
+                  }
+                .age{
+                  font-size:0.8em;
+                  font-weight:normal;
+
+                  }
+                #stage{
+                  margin:0 0 0em 0em;
+                  float:left;
+                  }
+
+                #stage p{
+                  float:left;
+                  color:#67a8bd;
+                  font-size:0.8em;
+                  letter-spacing:0em;
+                  border-radius: 6px;
+                  border:1px solid #67a8bd;
+                  padding:0.4em 0.8em 0.4em 0.8em;
+                  margin: 0.5em 0.5em 0 0;
+                  }
+                .contract{
+                  clear:right;
+                  color:#67a8bd;
+                  padding-left:0.2em;
+                  text-decoration:underline;
+                  font-size:0.7em;
+                  font-weight:100;
+                  }
+                #contantInfo{
+                  margin:1em 0 1em 1em;
+                  float:left;
+                  line-height:1em;
+                  font-size:1em;
+                  }
+                #contantInfo p{
+                  float:left;
+                  margin: 0em 0.5em 1em 0;
+                  }
+                .quez{
+                  clear: left;
+                  font-size: .8em;
+                  width: 4em;
+                  text-align: center;
+                  border:1px solid #3C3C3C;
+                  color: #3C3C3C;
+                  border-radius: 4px;
+                  padding: 0.2em;
+                  }
+
+                /*all forms*/
+
+                  /* color line
+
+                    .bBlueL{border:1px solid #b0cc;}
+                      .blueL{border:1px solid #67a8bd;}
+                        .pinkL{border-color:#e1c1c3;}
+                          .greyL{border-color:#b1b3b6;}*/
+
+                #formz{
+                  font-size:1em;
+                  clear:left;
+                  width:100%;
+                  opacity:0.8; /*ifFilled turn into 1.0*/
+                  }
+                  #formz li{
+                      text-align:center;
+                      width:45%;
+                      float:left;
+                      padding:2.5% 2.2% 3% 2.2%;
+                      margin:0.2%;
+                      border:1% solid #fff;
+                      }
+                    #formz a{
+
+
+                        }
+
+                      #formz a:hover{
+
+                             font-weight:bolder;
+                             }
+
+
+      </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+
+  <body>
+
+    <!-- header -->
+    <div id="header">
+      <div id="logo">
+        <a href="member_db.html" target="_self"><img src="/images/index-icon.png" alt=""/></a>
+      </div>
+      <p class="hello">Hello Penny Lin</p>
+      <li class="viewAll"><a href="member_db.html" target="_self">18 client</a></li>
+      <li class="tool"><a href="#" target="_self">Tool</a></li>
+      <li class="add"><a href="#" target="_self">Add New</a></li>
+    </div>
+    <!-- searchbar -->
+    <div id="search">
+      <p>search</p>
+    </div>
+
+
+    <!-- clientInformation -->
+    <div id="clientInfo">
+
+      <!-- <div id="face">
+        <img src="img/IMG_0699.jpg"  alt=""/>
+        <div> -->
+          <div id="basicInfo">
+            <h3>Li Ting Wu <span class="age">34 </span><span class="contract">Under Contract</span></h3>
+
+
+
+            <div id="stage">
+              <p>Due:17/09/09 </p>
+              <p>Singal Baby #2</p>
+              <p>Homebirth</p>
+              <p>Waterbirth</p>
+              <p>Waterbirth</p>
+            </div>
+          </div>
+          <div id="contantInfo">
+            <p class="quez">Mobile</p> <p>0234 234 234  </p>
+            <p class="quez">Phone</p> <p>02-2222 5222</p>
+            <p class="quez">Address</p><p>21 Dartmouth St. 4108 Coopers Plains QLD</p>
+            <p class="quez">Partner</p> <p>Adon Berwick 0888 88888 </p>
+            <p class="quez">Mother</p> <p>Jane Fox 0888 88888 </p>
+
+          </div>
+          <!-- AllFormz -->
+          <div id="formz">
+
+            <!-- 產前 -->
+            <li class="pregnancy"><a href="#" target="_self">初/複診照護表</a></li>
+            <li class="pregnancy"><a href="#" target="_self">家庭社會功能評估</a></li>
+            <li class="pregnancy"><a href="#" target="_self">產前憂鬱症評估</a></li>
+            <li class="pregnancy"><a href="#" target="_self">資料保護同意書</a></li>
+            <li class="pregnancy"><a href="#" target="_self">生產計劃</a></li>
+
+            <!-- 產中 -->
+
+            <li class="due"><a href="#" target="_self">諮詢紀錄表</a></li>
+
+            <li class="due"><a href="#" target="_self">生產與分娩照護</a></li>
+
+            <!-- 產後 -->
+            <li class="pCare"><a href="#" target="_self">新生兒照護紀錄</a></li>
+            <li class="pCare"><a href="#" target="_self">產後照護</a></li>
+            <li class="pCare"><a href="#" target="_self">哺乳基本評估</a></li>
+            <li class="pCare"><a href="#" target="_self">產後到府照護</a></li>
+            <li class="pCare"><a href="#" target="_self">產後憂鬱症評估</a></li>
+
+            <!-- 結案 -->
+            <li class="closed"><a href="#" target="_self">產家與家屬申訴</a></li>
+            <li class="closed"><a href="#" target="_self">滿意度調查</a></li>
+
+          </div>
+
+        </div>
+        <!-- subNav -->
+        <div id="subNav">
+
+          <li ><a href="http://heqet.net/" title="About Heqet" target="_blank">About Heqet</a></li>
+          <li><a href="http://heqet.net/contact" title="Contact Heqet" target="_blank">Contact</a></li>
+          <li><a href="http://heqet.net/support" title="Contact Heqet" target="_blank">Support</a></li>
+
+        </div>
+
+        <!-- footer -->
+        <div id="footer">
+          <p>©2017 Heqet EHR.</p>
+        </div>
+
+  </body>
+</html>
